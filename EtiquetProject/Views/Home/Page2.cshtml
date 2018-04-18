@@ -1,0 +1,321 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+    <title>Index Etickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Style/Style.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">*@
+    
+    <style>
+
+        /*Slider*/
+        .mySlides {
+            display: none;
+            height: 477px;
+            width: 1165px !important;
+        }
+
+        .w3-left, .w3-right, .w3-badge {
+            cursor: pointer
+        }
+
+       
+
+        img.img-slide {
+            height: 59px;
+            width: 71px;
+            margin-right: 18px;
+        }
+        .row.row-slider {
+            margin-top: 22px;
+            width: 1167px;
+            margin-left: 0px;
+        }
+
+        .slider-content.slider-display-container {
+            margin-bottom: 79px;
+            margin-top: 38px;
+        }
+    </style>
+
+</head>
+
+<body class="container">
+
+    <header>
+        <div class="wrapper row0">
+            <div class="topbar row">
+                <div class="col-4">
+                    <i class="fa fa-facebook-official fa-2x"></i>
+                    <i class="fa fa-twitter-square fa-2x"></i>
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+                </div>
+
+                <div class="col-4">
+                    <img src="~/Images/image.png" class="logo" />
+                    @*<img class="logo" src="" alt="" />*@
+                </div>
+
+                <div class="col-4">
+                    <button value="Register" class="btn btn-danger login">Register</button>
+                    <button value="Login" class="btn btn-primary register">Login</button>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+        <div class="row1">
+            <nav class="nav navbar-brand text-center">
+                <a href="#">Home</a>
+                <a href="#">Presentation</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+        <hr />
+
+        <div class="container raw2">
+
+            <i class="fa fa-500px fa-5x"></i>
+            <br />
+            <p>
+                Qu'est-ce que le Lorem Ipsum?
+            </p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="input-group center">
+
+                        <span class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-search"></i></div>
+                        </span>
+                        <input class="form-control py-2 border-left-0 border" type="search" id="example-search-input">
+                    </div>
+                </div>
+            </div>
+            <br />
+
+
+        </div>
+    </header>
+    <hr />
+    <section>
+        <figcaption class="text">
+            <h3>Lorem Ipsum</h3>
+            <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+            <p> "Il n’y a personne qui n’aime la souffrance pour elle-même…"</p>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+        </figcaption>
+
+        @*Slider*@
+        <div>
+            <div class="slider-content slider-display-container w3-content w3-display-container" style="max-width:800px">
+
+                <img class="mySlides" src="~/Images/image.png" style="width:100%">
+                <img class="mySlides" src="~/Images/Iphone.PNG" style="width:100%">
+                <img class="mySlides" src="~/Images/image.png" style="width:100%">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+
+                </div>
+                <div class="row row-slider w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle">
+                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="col col-slider" style="margin-left: 37%;">
+                        <img class="img-slide w3-border" src="~/Images/image.png" onclick="currentDiv(1)" />
+                        <img class="img-slide" src="~/Images/Iphone.png" onclick="currentDiv(2)" />
+                        <img class="img-slide" src="~/Images/image.png" onclick="currentDiv(3)" />
+                    </div>
+
+
+                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row p-4">
+            <div class="card card-pg2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-pg2 rounded-circle" alt="Card image cap" />
+                <div class="card-body">
+
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#">Lorem Ipsum</a>
+                </div>
+            </div>
+
+
+            <div class="card card-pg2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-pg2 rounded-circle" alt="Card image cap" />
+                <div class="card-body">
+
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#">Lorem Ipsum</a>
+                </div>
+            </div>
+
+
+            <div class="card card-pg2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-pg2 rounded-circle" alt="Card image cap" />
+                <div class="card-body">
+
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#">Lorem Ipsum</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row p-6">
+            <div class="card col card-p2">
+                <img src="~/Images/image.png" class="card-img-top-p2" alt="Card image cap" />
+
+                <div class="card-body">
+                    <p class="fa fa-3x">XX</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural...</p>
+                    <a class="btn btn-primary">Lorem Ipsum</a>
+                </div>
+            </div>
+
+
+            <div class="card col card-p2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-p2" alt="Card image cap" />
+                <div class="card-body">
+
+                    <p class="fa fa-3x">XX</p>
+
+                    <p class="card-text">This is a longer card with supporting text below as a natural...</p>
+                    <a class="btn btn-primary">Lorem Ipsum</a>
+                </div>
+            </div>
+
+
+            <div class="card col card-p2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-p2" alt="Card image cap" />
+                <div class="card-body">
+                    <p class="fa fa-3x">XX</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural...</p>
+                    <a class="btn btn-primary">Lorem Ipsum</a>
+                </div>
+            </div>
+
+            <div class="card col card-p2" style="width:400px">
+                <img src="~/Images/image.png" class="card-img-top-p2" alt="Card image cap" />
+                <div class="card-body">
+
+                    <p class="fa fa-3x">XX</p>
+
+                    <p class="card-text">This is a longer card with supporting text below as a natural...</p>
+                    <a class="btn btn-primary">Lorem Ipsum</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row p-4">
+            <div class="rectangle">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr />
+
+    <footer class="footer">
+        <div class="row download">
+            <div class="col-2">
+                <figcaption class="text">
+                    <h3>Lorem Ipsum</h3>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+
+                </figcaption>
+            </div>
+
+            <div class="col-2">
+                <figcaption class="text">
+                    <h3>Lorem Ipsum</h3>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                </figcaption>
+            </div>
+
+            <div class="col-2">
+                <figcaption class="text">
+                    <h3>Lorem Ipsum</h3>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                </figcaption>
+            </div>
+
+            <div class="col-2">
+                <figcaption class="text">
+                    <h3>Lorem Ipsum</h3>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet..."</p>
+                </figcaption>
+            </div>
+
+            <div class="col-2">
+                <figcaption class="footer-col5">
+                    <img src="~/Images/image.png" class="foo" />
+                    <p>
+                        <i class="fa fa-facebook-official fa-3x"></i>
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </p>
+                </figcaption>
+            </div>
+
+
+        </div>
+        <br />
+
+        <div class="row footer-bottom">
+            <p>© Copyright 2018 - All Rights Reserved</p>
+            <p>Neque porro quisquam<p />
+        </div>
+    </footer>
+
+    @*Script of sliderShow*@
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
+</body>
+</html>

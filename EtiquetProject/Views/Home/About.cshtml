@@ -1,7 +1,53 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<p id="left">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac quam dignissim, tristique eros eget, aliquam nulla. Pellentesque dapibus mattis massa, eu dapibus arcu commodo vel. Vestibulum id suscipit felis, nec malesuada lacus. Nam lacinia elementum mauris ut lacinia. Nulla sed congue mi, in vehicula sapien. Nulla at ipsum sed metus feugiat interdum. In ultricies sem nec facilisis tincidunt. Suspendisse commodo ex sed ullamcorper gravida. Mauris velit mauris, egestas et est sit amet, ultricies mollis ipsum. Nunc sit amet quam ac nibh molestie porttitor sit amet sit amet ante. Mauris sollicitudin sit amet ligula non gravida.
 
-<p>Use this area to provide additional information.</p>
+    Curabitur auctor sollicitudin ante, ut rhoncus massa. Ut eu iaculis orci. Aliquam sit amet tortor tellus. Quisque iaculis tellus varius pellentesque blandit. Aenean sed sapien et ex vehicula bibendum. Proin nec orci id mauris semper facilisis. Vivamus massa purus, commodo et ullamcorper dignissim, dictum vitae tellus. Duis vel lacus posuere, pulvinar felis sit amet, viverra enim. Sed elementum eros et sem luctus, sed volutpat metus finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales tincidunt rhoncus.
+
+    Pellentesque felis dolor, tempus ac ex ac, dictum lacinia ligula. Quisque ornare hendrerit erat, tincidunt dignissim quam auctor id. Duis pellentesque enim in ante pretium luctus. Morbi dignissim enim sollicitudin augue venenatis, porta sodales tortor auctor. Mauris tincidunt dui at lectus commodo cursus. In bibendum ac nunc accumsan porta. Aliquam ac sem vitae ligula pellentesque pulvinar non in velit. In molestie diam eu vulputate iaculis. Mauris fermentum, elit sit amet tincidunt tempor, lorem arcu iaculis leo, aliquam feugiat nulla eros eu enim. Pellentesque hendrerit magna ut ligula ultricies, in euismod sapien luctus. Suspendisse potenti. Vestibulum porta malesuada egestas. Cras vehicula est a purus tempus, eu volutpat diam tempus.
+
+    Integer eu est faucibus, pulvinar eros at, porta enim. Aenean nec lorem nec arcu fringilla lacinia vitae non quam. Nullam ultrices, felis vitae hendrerit luctus, mi turpis tincidunt ex, eget pulvinar nulla turpis quis tellus. Phasellus nec lorem vel turpis consectetur viverra. Cras a tellus mi. Pellentesque congue sodales orci. Curabitur at facilisis nunc. Donec vel congue metus. Suspendisse id dui leo. Aenean sed dolor aliquet, molestie justo et, sodales risus. Proin ornare sagittis lectus quis condimentum.
+</p>
+
+
+<p id="right">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac quam dignissim, tristique eros eget, aliquam nulla. Pellentesque dapibus mattis massa, eu dapibus arcu commodo vel. Vestibulum id suscipit felis, nec malesuada lacus. Nam lacinia elementum mauris ut lacinia. Nulla sed congue mi, in vehicula sapien. Nulla at ipsum sed metus feugiat interdum. In ultricies sem nec facilisis tincidunt. Suspendisse commodo ex sed ullamcorper gravida. Mauris velit mauris, egestas et est sit amet, ultricies mollis ipsum. Nunc sit amet quam ac nibh molestie porttitor sit amet sit amet ante. Mauris sollicitudin sit amet ligula non gravida.
+
+    Curabitur auctor sollicitudin ante, ut rhoncus massa. Ut eu iaculis orci. Aliquam sit amet tortor tellus. Quisque iaculis tellus varius pellentesque blandit. Aenean sed sapien et ex vehicula bibendum. Proin nec orci id mauris semper facilisis. Vivamus massa purus, commodo et ullamcorper dignissim, dictum vitae tellus. Duis vel lacus posuere, pulvinar felis sit amet, viverra enim. Sed elementum eros et sem luctus, sed volutpat metus finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales tincidunt rhoncus.
+
+    Pellentesque felis dolor, tempus ac ex ac, dictum lacinia ligula. Quisque ornare hendrerit erat, tincidunt dignissim quam auctor id. Duis pellentesque enim in ante pretium luctus. Morbi dignissim enim sollicitudin augue venenatis, porta sodales tortor auctor. Mauris tincidunt dui at lectus commodo cursus. In bibendum ac nunc accumsan porta. Aliquam ac sem vitae ligula pellentesque pulvinar non in velit. In molestie diam eu vulputate iaculis. Mauris fermentum, elit sit amet tincidunt tempor, lorem arcu iaculis leo, aliquam feugiat nulla eros eu enim. Pellentesque hendrerit magna ut ligula ultricies, in euismod sapien luctus. Suspendisse potenti. Vestibulum porta malesuada egestas. Cras vehicula est a purus tempus, eu volutpat diam tempus.
+
+    Integer eu est faucibus, pulvinar eros at, porta enim. Aenean nec lorem nec arcu fringilla lacinia vitae non quam. Nullam ultrices, felis vitae hendrerit luctus, mi turpis tincidunt ex, eget pulvinar nulla turpis quis tellus. Phasellus nec lorem vel turpis consectetur viverra. Cras a tellus mi. Pellentesque congue sodales orci. Curabitur at facilisis nunc. Donec vel congue metus. Suspendisse id dui leo. Aenean sed dolor aliquet, molestie justo et, sodales risus. Proin ornare sagittis lectus quis condimentum.
+</p>
+
+<style>
+    body {
+        margin: 0;
+        padding: 20px;
+        width: 830px;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 400px;
+        margin-right: 15px;
+        text-align: justify;
+        overflow: hidden;
+        float: left;
+    }
+
+        p:before {
+            content: '';
+            width: 200px;
+            height: 600px;
+        }
+
+    #left:before {
+        float: right;
+        shape-outside: circle(40% at 100% 50%);
+    }
+
+    #right:before {
+        float: left;
+        shape-outside: circle(40% at 0 50%);
+    }
+</style>

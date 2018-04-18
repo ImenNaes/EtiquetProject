@@ -1,0 +1,217 @@
+﻿
+body {
+    margin:10px 100px;
+    
+}
+
+img.logo{
+    width: 70px;
+    height: 40px;
+}
+
+.login, .register {
+    width: 121px;
+}
+
+.row1 {
+    /* text-align: center; */
+    margin-left: 24%;
+}
+
+.navbar-brand.text-center a {
+    color: #bcbec0 !important;
+}
+.fa-500px {
+    margin-left: 40%;
+}
+.search{
+    margin-left: 30%;
+}
+.raw2 p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.input-lg {
+    border: none;
+    background-color: #f0f0f0 !important;
+}
+
+.container.raw2 {
+  height: 604px;
+}
+
+figcaption h3{
+    text-align: center;
+}
+
+
+.card {
+    background-color: #F0F5ED;
+    border: none;
+    height: 530px;
+    margin: 21px 15px;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+img.image {
+    height:472px !important;
+    width: 466px !important;
+}
+
+media-container-text.col {
+    margin-top: 13%;
+}
+
+.row.media-container {
+    margin-top: 76px;
+    margin-left: 25px;
+}
+
+.figure-img.col {
+    margin-right: 22px;
+}
+
+.media-container-text.col {
+    margin-right: 175px;
+    margin-left: 139px;
+}
+
+.row.p-4 {
+    width: 137%;
+}
+
+.card.p-4.center {
+    height: 560px;
+}
+
+.figure-text {
+    margin-top: 36%;
+    font-size: 20px;
+}
+
+.input-group {
+    width: 784px;
+    background-color: #f0f4fa;
+    margin-left: 50%;
+    margin-top: 128px;
+}
+
+.fa-5x {
+    font-size: 226px;
+    margin-top: 65px;
+}
+
+figcaption.text {
+    text-align: center;
+}
+
+img.card-img-top {
+    height: 80px;
+    width: 80px;
+    margin: 10% 36%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+a.btn.btn-dark {
+    color: white;
+}
+
+a.btn.btn-lg.btn-primary, .android-btn {
+    width: 57% !important;
+    height: 48px;
+    margin-right: 91px;
+}
+
+figcaption.footer-col5 {
+    margin-left: 181px;
+    width: 100%;
+    margin-top: 55px;
+}
+
+img.foo {
+    margin-bottom: 40px;
+    margin-left: 26px;
+    width: 79px;
+    height: 49px;
+}
+
+.btn-text {
+    font-size: 13px;
+}
+
+.row.container.row4 {
+    height: 547px;
+    margin-top: 124px;
+}
+
+img.img-iphone {
+    width: 350px;
+    height: 456px;
+}
+
+.col.col-store {
+    margin-top: 10%;
+}
+
+a.btn.btn-lg.btn-primary.col {
+    margin-right: 28px;
+    margin-left: 106px;
+}
+
+a.btn.btn-lg.btn-primary.col {
+    margin-right: 28px;
+    margin-left: 106px;
+}
+
+/*Page2*/
+.card.col.card-p2 {
+    height: 317px !important;
+    padding-top: 55px;
+}
+
+img.card-img-top-p2 {
+    height: 50px;
+    width: 91px;
+    margin-left: 38% !important;
+}
+
+a.btn.btn-primary {
+    color: #ffffff;
+}
+
+.row.p-6 {
+    margin-left: -22%;
+    margin-right: -22%;
+    margin-bottom: 0px;
+}
+
+footer.footer {
+    height: 400px !important;
+    padding-top: 76px;
+    margin-left: -18%;
+    margin-right: -38%;
+}
+
+.row.download {
+    margin-bottom: 29px;
+}
+
+.card.card-pg2 {
+    height: 239px !important;
+}
+
+.card-img-top-pg2 {
+    height: 92px;
+    width: 92px;
+    margin-left: 35%;
+}
+
+/*Slider*/
+

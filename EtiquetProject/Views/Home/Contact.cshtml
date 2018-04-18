@@ -1,17 +1,84 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+       
+        .container {
+            margin-top: 4%; 
+        } 
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        p{
+            color: #7db9e8;
+            text-align: justify;
+        }
+        /*.rectangle {
+            background-color: orangered;
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-top: 31%;
+            margin-left: 40%;
+            shape-outside: polygon(nonzero, 23% 89.85%, 23.75% 83.85%, 27.75% 78.35%, 33.75% 75.15%, 42.65% 75.65%, 46.25% 69.35%, 51.65% 68.15%, 52.65% 61.65%, 55.65% 54.15%, 42.5% 37.85%, 42.9% 29.15%, 46.25% 24.35%, 51.25% 23.65%, 53.65% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 23.9% 99.85%) border-box;
+        }*/
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        /*.shape {
+            background-color: orangered;
+            float: left;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            shape-outside: polygon(66.67px 200.00px,67.33px 317.47px,339.67px 316.47px,339.33px 201.00px,335.67px 85.53px,65.33px 85.53px) shape-margin: 35px;
+        }*/
+        .leftTriangle {
+            width: 150px;
+            height: 300px;
+            background-color: #7db9e8;
+            margin: 0 25px 5px 0;
+            float: left;
+            clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+            shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+        }
+
+        .rightTriangle {
+            width: 150px;
+            height: 300px;
+            background-color: #7db9e8;
+            margin: 0 0 5px 25px;
+            float: right;
+            clip-path: polygon(0% 0%, 100% 0%, 50% 100%); 
+            shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+        }
+        .Triangle {
+            width: 150px;
+            height: 300px;
+            background-color: #7db9e8;
+            margin: 0 0 5px 25px;
+           
+            clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+            shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="leftTriangle"></div>
+        <div class="rightTriangle"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+
+        <div class="Triangle"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+
+    </div>
+
+</body>
+</html>
