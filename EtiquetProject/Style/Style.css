@@ -30,6 +30,8 @@ img.logo{
 .raw2 p {
     text-align: center;
     font-size: 26px;
+    width: max-content;
+    margin-left: 31%;
 }
 
 .input-lg {
@@ -45,7 +47,6 @@ figcaption h3{
     text-align: center;
 }
 
-
 .card {
     background-color: #F0F5ED;
     border: none;
@@ -57,10 +58,10 @@ figcaption h3{
     padding: 1.5rem !important;
 }
 
-img.image {
+/*img.image {
     height:472px !important;
     width: 466px !important;
-}
+}*/
 
 media-container-text.col {
     margin-top: 13%;
@@ -100,6 +101,10 @@ media-container-text.col {
     margin-top: 128px;
 }
 
+    .input-group.center {
+        width: 218%;
+    }
+
 .fa-5x {
     font-size: 226px;
     margin-top: 65px;
@@ -129,6 +134,13 @@ a.btn.btn-lg.btn-primary, .android-btn {
     margin-right: 91px;
 }
 
+img.image {
+    height: 120% !important;
+    width: 129% !important;
+}
+
+/*Footer*/
+
 figcaption.footer-col5 {
     margin-left: 181px;
     width: 100%;
@@ -149,6 +161,7 @@ img.foo {
 .row.container.row4 {
     height: 547px;
     margin-top: 124px;
+    margin-top: 24%;
 }
 
 img.img-iphone {
@@ -213,5 +226,431 @@ footer.footer {
     margin-left: 35%;
 }
 
-/*Slider*/
+/*Queries*/
+
+@media screen and (max-width: 1024px) {
+
+    footer.footer {
+        margin-left: 0% !important;
+    }
+
+    a.btn.btn-primary.big-btn.android-btn.col {
+        margin-right: 30%;
+        margin-left: 27%;
+        margin-top: 6%;
+    }
+
+    a.btn.btn-lg.btn-primary.col {
+        margin-right: 30%;
+        margin-left: 27%;
+    }
+
+    figcaption.footer-col5 {
+        margin-left: 25%;
+    }
+
+    .col-2 {
+        margin-left: -2%;
+    }
+
+    .figure-text {
+ 
+        text-align: justify;
+        margin-right: -47%;
+    }
+
+    img.image {
+        height: 109% !important;
+        width: 171% !important;
+    }
+    .containe-img-text {
+        margin-left: -7%;
+        margin-right: 6%;
+    }
+    body {
+        overflow: -webkit-paged-y !important;
+    }
+    img.img-iphone {
+        margin-top: -19%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+       
+        margin: 21px 63px;
+        width: 60% !important;
+    }
+
+    .containe-img-text {
+        margin-left: -21%;
+        margin-right: 2%;
+    }
+
+    .figure-text {
+        
+        margin-right: -100%;
+    }
+ 
+    .col.col-store {
+        margin-top: 37%;
+        margin-right: -24%;
+    }
+
+    .row.row-App {
+        margin-right: -30%;
+    }
+    figcaption.footer-col5 {
+       
+        width: 128%;
+    }
+    body {
+        margin: 10px;
+    }
+    .row.p-4 {
+        margin-left: -12%;
+    }
+
+    .login, .register {
+        width: 105px;
+        font-size: 10px;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+
+    .login, .register {
+        width: 45px !important;
+        font-size: 8px !important;
+    }
+    .row1 {
+        margin-left: 4%;
+    }
+
+    .raw2 p {
+        font-size: 13px;
+        margin-left: 26%;
+    }
+
+    .fa-5x {
+        font-size: 4em !important;
+    }
+
+    .input-group.center {
+        width: 87%;
+        margin-left: 7%;
+    }
+
+    img.image {
+        width: 210% !important;
+        margin-left: 39%;
+        height: 179px !important;
+    }
+
+    .media-container-text.col {
+        margin-left: 84px;
+    }
+
+   
+    .col.col-store {
+        margin-top: 39%;
+        margin-right: -62%;
+        margin-left: -97%;
+    }
+
+    img.img-iphone {
+        width: 47%;
+        margin-left: 28%;
+        height: 27%;
+    }
+
+    .row.row-App {
+        margin-right: -11%;
+    }
+
+    figcaption h3 {
+        font-size: 0.75rem;
+    }
+
+    figcaption p {
+        font-size: 8px;
+    }
+
+    .footer-bottom p {
+        font-size: 11px;
+        margin-left: 3%;
+    }
+
+    figcaption.footer-col5 {
+        margin-left: -8%;
+    }
+
+    img.foo {
+        margin-bottom: 22px;
+        margin-left: 6px;
+        width: 48px;
+        height: 37px;
+    }
+
+    .figure-text {
+        margin-right: -100%;
+        font-size: 10px;
+    }
+    
+    .figure-text h3 {
+        font-size: 0.75rem;
+    }
+
+    .media-container-text.col {
+        margin-left: 73px;
+        margin-right: 21%;
+    }
+
+    .row.media-container.center {
+        margin-right: 13%;
+        margin-left: -4%;
+    }
+
+    img#image1 {
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .fa-5x {
+        font-size: 100px;
+        margin-top: 65px;
+    }
+
+    .raw2 p {
+        font-size: 12px;
+    }
+
+    .input-group.center {
+        width: 84%;
+        margin-left: 9%;
+    }
+
+    figcaption h3 {
+        font-size: 0.75rem;
+    }
+
+    figcaption p {
+        font-size: 8px;
+    }
+
+    .media-container-text.col {
+        margin-left: 84px;
+    }
+
+    .col.col-store {
+        margin-top: 39%;
+        margin-right: -62%;
+        margin-left: -97%;
+    }
+
+    img.img-iphone {
+        width: 47%;
+        margin-left: 28%;
+        height: 27%;
+    }
+
+    .row.row-App {
+        margin-right: -11%;
+    }
+
+    .footer-bottom p {
+        font-size: 11px;
+        margin-left: 3%;
+    }
+
+    figcaption.footer-col5 {
+        margin-left: -8%;
+    }
+
+    img.foo {
+        margin-bottom: 22px;
+        margin-left: 6px;
+        width: 48px;
+        height: 37px;
+    }
+
+    .row.row-App {
+        margin-right: 6%;
+    }
+    .media-container-text.col {
+        margin-left: 73px;
+        margin-right: 21%;
+    }
+
+    .row.media-container.center {
+        margin-right: 9%;
+        margin-left: 0%;
+    }
+    .figure-text {
+        margin-right: -100%;
+        font-size: 10px;
+    }
+
+        .figure-text h3 {
+            font-size: 0.75rem;
+        }
+
+    .row.media-container {
+        margin-top: 76px;
+        margin-left: 72px;
+    }
+
+    img#image1 {
+        height: 81% !important;
+        margin-bottom: -100%;
+    }
+
+    img.image.image-center {
+        margin-top: -14%;
+    }
+    .row.row-App {
+        margin-right: -27%;
+    }
+
+    img.image {
+        width: 223% !important;
+        margin-left: 3%;
+        height: 103% !important;
+    }
+
+    /*img.image.image-center {
+        margin-top: 68%;
+        height: 75% !important;
+        width: 326% !important;
+    }*/
+    .login, .register {
+        width: 51px !important;
+        font-size: 8px !important;
+    }
+    .row.row-App {
+        margin-right: -27%;
+    }
+}
+
+
+/*@media screen and (max-width: 414px) {
+    .row.row-App {
+        margin-right: -27%;
+    }
+
+    img.image {
+        width: 223% !important;
+        margin-left: 3%;
+        height: 103% !important;
+    }
+
+    img.image.image-center {
+        margin-top: 68%;
+        height: 75% !important;
+        width: 326% !important;
+    }
+   
+}*/
+@media screen and (max-width: 411px) {
+    .row.row-App {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+    @media screen and (max-width: 472px) {
+        .fa-5x {
+            font-size: 82px;
+            margin-top: 65px;
+        }
+
+        .raw2 p {
+            font-size: 12px;
+        }
+
+        .input-group.center {
+            width: 84%;
+            margin-left: 9%;
+        }
+
+        figcaption h3 {
+            font-size: 0.75rem;
+        }
+
+        figcaption p {
+            font-size: 8px;
+        }
+
+        .media-container-text.col {
+            margin-left: 84px;
+        }
+
+        .col.col-store {
+            margin-top: 39%;
+            margin-right: -62%;
+            margin-left: -97%;
+        }
+
+        img.img-iphone {
+            width: 29%;
+            margin-left: 35%;
+            height: 25%;
+            margin-top: 0%;
+        }
+
+        .row.row-App {
+            margin-right: -11%;
+        }
+
+        .media-container-text.col {
+            margin-left: 73px;
+            margin-right: 21%;
+        }
+
+        .row.media-container.center {
+            margin-right: 9%;
+            margin-left: 0%;
+        }
+
+        .figure-text {
+            margin-right: -100%;
+            font-size: 10px;
+        }
+
+            .figure-text h3 {
+                font-size: 0.75rem;
+            }
+
+        .row.media-container {
+            margin-top: 76px;
+            margin-left: 72px;
+        }
+
+        .row.row-App {
+            margin-right: 6%;
+            margin-left: 10%;
+        }
+
+        .footer-bottom p {
+            font-size: 11px;
+            margin-left: 3%;
+        }
+
+        figcaption.footer-col5 {
+            margin-left: -8%;
+        }
+
+        img.foo {
+            margin-bottom: 22px;
+            margin-left: 6px;
+            width: 48px;
+            height: 37px;
+        }
+
+        .login, .register {
+            width: 58px;
+            font-size: 10px;
+        }
+    }
 
